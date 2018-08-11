@@ -21,4 +21,4 @@ function currentLine(currentLine){
   for (let x=0; x< currentLine.length; x++){
     name.push(`${x+1}. ${currentLine[x]}`)}
 
-    return `The line is currently : ${currentLine.join()}}
+    return `The line is currently : ${currentLine.join()}
