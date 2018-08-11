@@ -17,6 +17,8 @@ function currentLine(currentLine){
   if (currentLine.length==0) {
     return `The line is currently empty.`
   }
-  {const name=[]
+  const name=[]
   for (let x=0; x< currentLine.length; x++){
-    name.push(`The line is currently: ${x+1}. ${currentLine[x]}`)
+    name.push(`${x+1}. ${currentLine[x]}`)}
+    
+    return 'The line is currently : ${name.join()}'
