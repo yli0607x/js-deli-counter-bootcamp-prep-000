@@ -19,5 +19,4 @@ function currentLine(currentLine){
   }
   {const name=[]
   for (let x=0; x< currentLine.length; x++){
-    name.push(`The line is currently: ${x+1}. ${currentLine[i]}`)
-
+    name.push(`The line is currently: ${x+1}. ${currentLine[x]}`)
