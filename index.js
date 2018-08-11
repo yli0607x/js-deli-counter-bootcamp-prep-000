@@ -18,5 +18,5 @@ function currentLine(currentLine){
     return `The line is currently empty`
   }
 
-    
+
   }
